@@ -37,4 +37,4 @@ done
 
 rm "${CONFIG_PATH}"
 
-git add -A && git reset --soft HEAD && git commit --all --amend --no-edit
+git add -A && git reset --soft HEAD && git commit --all --amend --no-edit --no-verify
