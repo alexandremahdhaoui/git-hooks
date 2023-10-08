@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/alexandremahdhaoui/git-hooks/compare/v0.0.4...v0.0.5) (2023-10-08)
+
+
+### Bug Fixes
+
+* fixed go-license.sh ([9e08c30](https://github.com/alexandremahdhaoui/git-hooks/commit/9e08c302430419693bd2e36680f4fb9cc16887e2))
+
 ## [0.0.4](https://github.com/alexandremahdhaoui/git-hooks/compare/v0.0.3...v0.0.4) (2023-10-08)
 
 
