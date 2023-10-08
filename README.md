@@ -5,9 +5,9 @@ Useful git hooks
 ## Usage
 
 ```shell
-PATH="./.git/hooks/pre-commit"
+FILEPATH="./.git/hooks/pre-commit"
 
-cat <<EOF | tee "${PATH}"
+cat <<EOF | tee "${FILEPATH}"
 #!/bin/bash
 
 URL="https://raw.githubusercontent.com/alexandremahdhaoui/git-hooks"
@@ -20,5 +20,5 @@ for script in \${SCRIPTS}; do
 done
 EOF
 
-chmod 755 "${PATH}"
+chmod 755 "${FILEPATH}"
 ```
