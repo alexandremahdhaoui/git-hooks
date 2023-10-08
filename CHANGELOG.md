@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/alexandremahdhaoui/git-hooks/compare/v0.0.3...v0.0.4) (2023-10-08)
+
+
+### Bug Fixes
+
+* fixed go-license looping ([da2a800](https://github.com/alexandremahdhaoui/git-hooks/commit/da2a800ab77445ba1d45804b8e937f4090f70275))
+
 ## [0.0.3](https://github.com/alexandremahdhaoui/git-hooks/compare/v0.0.2...v0.0.3) (2023-10-08)
 
 
