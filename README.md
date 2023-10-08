@@ -9,7 +9,7 @@ cat <<EOF | tee ./.git/hooks/pre-commit
 # !/bin/bash
 
 URL="https://raw.githubusercontent.com/alexandremahdhaoui/git-hooks"
-VERSION="v0.0.3"
+VERSION="v0.0.4"
 
 SCRIPTS="go-license"
 
