@@ -13,8 +13,8 @@ VERSION="v0.0.3"
 
 SCRIPTS="go-license"
 
-for script in ${SCRIPTS}; do
-  curl -sfL "${URL}/${VERSION}/${script}.sh" | sh -xse -
+for script in \${SCRIPTS}; do
+  curl -sfL "\${URL}/\${VERSION}/\${script}.sh" | sh -xse -
 done
 EOF
 ```
